@@ -41,8 +41,6 @@ steps:
 - script: |
     sudo apt-get install git
     git checkout master
-    git config user.email "godfreymacasero@gmail.com"
-    git config user.name "gmac220"
     git merge origin/dev
     echo $BOBBY
     git push https://gmac220:$GMACP@github.com/gmac220/hellogo
