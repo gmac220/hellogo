@@ -45,6 +45,6 @@ steps:
     git config --global user.name "gmac220"
     git merge origin/dev
     echo $BOBBY
-    git push https://gmac220:$GMACP@github.com/gmac220/hellogo
+    git push https://gmac220:password@github.com/gmac220/hellogo
   workingDirectory: '$(modulePath)'
   displayName: 'Merging with Github'
