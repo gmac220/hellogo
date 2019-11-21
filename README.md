@@ -21,5 +21,3 @@ docker tag hiloimg godfrey220/hellogo:v1
 docker push godfrey220/hellogo:v1
 
 docker run --rm -it -p 8080:8080 godfrey220/hellogo:v1
-
-hellos
