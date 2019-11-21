@@ -42,7 +42,10 @@ steps:
     sudo apt-get install git
     git checkout master
     git merge origin/dev
+<<<<<<< HEAD
     echo $BOBBY
+=======
+>>>>>>> 58d876606f58515437a71c8205266b8d5b104812
     git push https://gmac220:$GMACP@github.com/gmac220/hellogo
   workingDirectory: '$(modulePath)'
   displayName: 'Merging with Github'
