@@ -39,6 +39,9 @@ steps:
   displayName: 'Get dependencies, then build'
 
 - script: |
+    sudo apt-get install git
     git checkout master
     git merge dev
     git push https://gmac220@$GMACP@github.com/gmac220/hellogo
+  workingDirectory: '$(modulePath)'
+  displayName: 'Merging with Github'
